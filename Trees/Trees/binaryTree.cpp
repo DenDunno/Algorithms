@@ -21,6 +21,25 @@ bool BinaryTree::search(Node* node , int number)
 	}
 }
 
+void BinaryTree::getLeafsOfNode(std::vector<int>& leafs , Node* node)
+{
+	auto isChildNodeEmpty = [&](Node* childNode)
+	{
+		if (childNode != nullptr)
+		{
+			getLeafsOfNode(leafs, childNode);
+			return false;
+		}
+
+		return true;
+	};
+
+	if (isChildNodeEmpty(node->Left) & isChildNodeEmpty(node->Right))
+	{
+		leafs.push_back(node->Data);
+	}
+}
+
 int BinaryTree::getHeightOfNode(Node* node)
 {
 	if (node == nullptr || isRootInited_ == false)

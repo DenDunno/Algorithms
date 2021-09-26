@@ -13,27 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Исходные файлы\2312_heightOfBinaryTree">
-      <UniqueIdentifier>{66ae865a-7a41-44cd-a543-05cef30cc9d5}</UniqueIdentifier>
-    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Исходные файлы\2312_heightOfBinaryTree</Filter>
-    </ClCompile>
     <ClCompile Include="binaryTree.cpp">
-      <Filter>Исходные файлы\2312_heightOfBinaryTree</Filter>
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="binaryTreeInterface.cpp">
-      <Filter>Исходные файлы\2312_heightOfBinaryTree</Filter>
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="binaryTree.h">
-      <Filter>Исходные файлы\2312_heightOfBinaryTree</Filter>
-    </ClInclude>
     <ClInclude Include="node.h">
-      <Filter>Исходные файлы\2312_heightOfBinaryTree</Filter>
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="binaryTree.h">
+      <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

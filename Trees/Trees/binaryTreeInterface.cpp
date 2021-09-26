@@ -22,6 +22,15 @@ int BinaryTree::getHeightOfBinaryTree()
 	return getHeightOfNode(root_);
 }
 
+std::vector<int> BinaryTree::getAllLeafs()
+{
+	std::vector<int> answer;
+
+	getLeafsOfNode(answer, root_);
+
+	return answer;
+}
+
 int BinaryTree::size()
 {
 	return size_;

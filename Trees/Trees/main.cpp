@@ -11,8 +11,10 @@ int main()
 
 	fillBinaryTree(binaryTree);
 
-	cout << binaryTree.size() << endl;
-	cout << binaryTree.getHeightOfBinaryTree() << endl;
+	for (int const& leaf : binaryTree.getAllLeafs())
+	{
+		cout << leaf << " ";
+	}
 }
 
 void fillBinaryTree(BinaryTree& binaryTree)

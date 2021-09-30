@@ -1,4 +1,9 @@
-﻿  main.cpp
-D:\Business\Study\Algorithms\Graph\DijkstrasAlgorithm\DijkstrasAlgorithm\main.cpp(54,36): warning C4018: <: несоответствие типов со знаком и без знака
-D:\Business\Study\Algorithms\Graph\DijkstrasAlgorithm\DijkstrasAlgorithm\main.cpp(63,21): warning C4018: <: несоответствие типов со знаком и без знака
+﻿  depthFirstSearch.cpp
+  graph.cpp
+  graphInput.cpp
+D:\Business\Study\Algorithms\Graph\DijkstrasAlgorithm\DijkstrasAlgorithm\graphInput.cpp(9,23): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Business\Study\Algorithms\Graph\DijkstrasAlgorithm\DijkstrasAlgorithm\graphInput.cpp(11,24): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Business\Study\Algorithms\Graph\DijkstrasAlgorithm\DijkstrasAlgorithm\graphInput.cpp(23,23): warning C4018: <: несоответствие типов со знаком и без знака
+  main.cpp
+  Создание кода...
   DijkstrasAlgorithm.vcxproj -> D:\Business\Study\Algorithms\Graph\DijkstrasAlgorithm\Debug\DijkstrasAlgorithm.exe

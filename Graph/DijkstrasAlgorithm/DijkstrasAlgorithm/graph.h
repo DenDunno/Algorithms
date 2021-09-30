@@ -1,24 +1,28 @@
 #pragma once
-#include <istream>
-#include <vector>
 #include "dijkstrasAlgorithm.h"
+#include "depthFirstSearch.h"
 
 class Graph
 {
 public:
 
-	Graph(int vertices);
+	void readGraphByMatrix();
+	void readGraphByListOfEdges();
 
-	int getMinDistance(int vertexFrom, int vertexTo);
 	int getBalance(int vertexFrom, int vertexTo);
+
+	int dijkstrasAlgorithm(int vertexFrom, int vertexTo);
+	void depthFirstSearch(int vertexFrom);
 
 private:
 
 	int vertices_;
+	int edges_;
 	std::vector<std::vector<int>> graphMatrix_;
+	std::vector<std::pair<int, int>> edgesList_;
 
+	DepthFirstSearch depthFirstSearch_;
 	DijkstrasAlgorithm dijkstrasAlgorithm_;
 
-	void init(int verticesSize);
-	friend std::istream& operator>>(std::istream& is, Graph& graph);
+	void readVerticesAndEdges();
 };

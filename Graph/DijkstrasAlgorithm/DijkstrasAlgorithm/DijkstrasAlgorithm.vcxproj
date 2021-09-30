@@ -139,11 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="depthFirstSearch.cpp" />
     <ClCompile Include="dijkstrasAlgorithm.cpp" />
     <ClCompile Include="graph.cpp" />
+    <ClCompile Include="graphInput.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="depthFirstSearch.h" />
     <ClInclude Include="dijkstrasAlgorithm.h" />
     <ClInclude Include="graph.h" />
   </ItemGroup>

@@ -24,12 +24,21 @@
     <ClCompile Include="graph.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="depthFirstSearch.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="graphInput.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="graph.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="dijkstrasAlgorithm.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="depthFirstSearch.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

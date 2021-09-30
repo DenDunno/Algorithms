@@ -1,5 +1,6 @@
 #include "graph.h"
 #include <iostream>
+#include <algorithm>
 
 Graph::Graph(int vertices) 
 {
@@ -10,6 +11,11 @@ Graph::Graph(int vertices)
 int Graph::getMinDistance(int vertexFrom, int vertexTo) 
 {
     return dijkstrasAlgorithm_.getMinDistance(vertexFrom, vertexTo , graphMatrix_);
+}
+
+int Graph::getBalance(int vertexFrom, int vertexTo)
+{
+	return graphMatrix_[vertexFrom][vertexTo];
 }
 
 std::istream& operator>>(std::istream& is, Graph& graph)

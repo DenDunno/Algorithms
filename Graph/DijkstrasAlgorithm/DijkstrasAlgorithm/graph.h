@@ -10,6 +10,7 @@ public:
 	Graph(int vertices);
 
 	int getMinDistance(int vertexFrom, int vertexTo);
+	int getBalance(int vertexFrom, int vertexTo);
 
 private:
 
@@ -18,5 +19,6 @@ private:
 
 	DijkstrasAlgorithm dijkstrasAlgorithm_;
 
+	void init(int verticesSize);
 	friend std::istream& operator>>(std::istream& is, Graph& graph);
 };

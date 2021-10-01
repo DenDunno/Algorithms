@@ -14,5 +14,12 @@ int Graph::dijkstrasAlgorithm(int vertexFrom, int vertexTo)
 
 void Graph::depthFirstSearch(int vertexFrom)
 {
-	depthFirstSearch_.search(vertexFrom , edgesList_);
+	depthFirstSearch_.init(vertices_);
+	depthFirstSearch_.search(vertexFrom, edgesList_);
+}
+
+bool Graph::checkIfGraphConnected()
+{
+	depthFirstSearch_.init(vertices_);
+	return depthFirstSearch_.checkIfGraphConnected(edgesList_);
 }

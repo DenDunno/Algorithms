@@ -14,6 +14,8 @@ public:
 	int dijkstrasAlgorithm(int vertexFrom, int vertexTo);
 	void depthFirstSearch(int vertexFrom);
 
+	bool checkIfGraphConnected();
+
 private:
 
 	int vertices_;
